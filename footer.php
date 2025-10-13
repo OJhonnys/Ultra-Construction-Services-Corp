@@ -18,7 +18,7 @@
                 <h3>Email</h3>
                 <p>office@ultracorpfl.com</p>
             </div>
-            <div class="contact-item phone">
+            <div class="contact-item phone" id="phone">
                 <img src="/assets/images/icon-phone-footer.png" alt="Phone Icon">
                 <h3>Phone</h3>
                 <p>+1 954.532.5572</p>

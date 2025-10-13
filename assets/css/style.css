@@ -109,6 +109,7 @@
 .site-footer {
   background-color: #1A1A1A;
   color: #ffffff;
+  padding-top: 20px;
 }
 
 /* footer top */
@@ -126,13 +127,24 @@
 
 .contact-item h3 {
   font-family: var(--font-primary);
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
 .contact-item p {
+  margin-top: 10px;
   font-family: var(--font-secondary);
   font-size: 0.969rem;
+}
+
+.contact-item img {
+  margin-bottom: 10px;
+}
+
+#phone {
+  width: 400px;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
 }
 
 /* footer bottom */
@@ -150,18 +162,17 @@
 
 .footer-logo {
   margin-bottom: 15px;
+  opacity: 70%;
 }
 
 .social-links {
   display: flex;
   justify-content: space-around;
-  text-align: center;
+
 }
 
 .social-links a {
-  color: #ffffff;
-  opacity: 70%;
-  margin-right: 15px;
+  color: #cccccc;
   font-size: 1.2rem;
   text-decoration: none;
 }
@@ -170,7 +181,7 @@
 
 .footer-links h4, 
 .footer-cta h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-family: var(--font-primary);
   opacity: 70%;
@@ -188,8 +199,7 @@
 
 .footer-links a {
   font-family: var(--font-secondary);
-  color: #ffffff;
-  opacity: 70%;
+  color: #cccccc;
   font-size: 0.969rem;
   text-decoration: none;
 }
@@ -203,16 +213,19 @@
 .footer-cta p {
   color: #cccccc;
   margin-bottom: 20px;
-  max-width: 250px;
+  max-width: auto;
+  font-family: var(--font-secondary);
+  font-size: 0.75rem;
+
 }
 
 .cta-btn a {
-  color: #ffffff;
+  color: #cccccc;
   font-family: var(--font-secondary);
   font-size: 0.75rem;
   text-decoration: none;
   padding: 10px 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #cccccc;;
   border-radius: 5px;
   margin-right: 10px;
   display: inline-block;
@@ -220,19 +233,21 @@
 }
 
 .btn-quote {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .btn-view {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .btn-view:hover {
-    background-color: #cccccc;
+  background-color: #cccccc;
+  color: #1A1A1A;
 }
 
 .btn-quote:hover {
-    background-color: #cccccc;
+  background-color: #cccccc;
+  color: #1A1A1A;
 }
 
 /* legal */
@@ -243,7 +258,7 @@
   align-items: flex-start;
   text-align: center;
   font-family: var(--font-secondary);
-  padding: 20px 60px 20px 60px;
+  padding: 10px 60px 10px 60px;
   border-top: 1px solid #333333;
   font-size: 0.7rem;
   color: #cccccc;
