@@ -62,7 +62,7 @@
                 <p>Contact us today for a no-obligation quote.</p>
                 <div class="cta-btn">
                     <a href="#" class="btn btn-quote">Request a Quote</a>
-                    <a href="#" class="btn btn-quote">View Portfolio</a>
+                    <a href="#" class="btn btn-view">View Portfolio</a>
                 </div>
             </div>
         </div>
