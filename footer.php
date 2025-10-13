@@ -26,7 +26,7 @@
             <div class="contact-item location">
                 <img src="/assets/images/icon-location-footer.png" alt="Location Icon">
                 <h3>Location</h3>
-                <p>2611 Old Middleburg Rd N, Suite 105, Jacksonville, FL 32092</p>
+                <p>2611 Old Middleburg Rd N, Suite 105,<br> Jacksonville, FL 32092</p>
             </div>
         </div>
 

@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* HEADER */
+/* ----------------  HEADER  ---------------- */
 .site-header {
   display: flex;
   flex-direction: column;
@@ -102,4 +102,80 @@
   font-family: var(--font-secondary);
   font-weight: bold;
   font-size: 20px,
+}
+
+/* ----------------  FOOTER  ---------------- */
+
+.site-footer {
+  background-color: #1A1A1A;
+  color: #ffffff;
+}
+
+/* footer top */
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.contact-item {
+  text-align: center;
+  padding: 0 20px;
+  opacity: 70%;
+}
+
+.contact-item h3 {
+  font-family: var(--font-primary);
+  font-size: 1.75rem;
+}
+
+.contact-item p {
+  font-family: var(--font-secondary);
+  font-size: 0.969rem;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.footer-logo-social {
+  max-width: 200px;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.social-links a {
+  color: #ffffff;
+  opacity: 70%;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* footer links */
+
+.footer-links h4, 
+.footer-cta h4 {
+  font-size: 1.5rem;
+  font-family: var(--font-primary);
+  opacity: 70%;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
 }
