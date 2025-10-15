@@ -109,7 +109,7 @@
 .site-footer {
   background-color: #1A1A1A;
   color: #ffffff;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* footer top */
@@ -121,8 +121,9 @@
 
 .contact-item {
   text-align: center;
-  padding: 0 20px;
+  padding: auto;
   opacity: 70%;
+  width: 400px;
 }
 
 .contact-item h3 {
@@ -142,7 +143,6 @@
 }
 
 #phone {
-  width: 400px;
   border-left: 1px solid #333333;
   border-right: 1px solid #333333;
 }
@@ -168,11 +168,11 @@
 .social-links {
   display: flex;
   justify-content: space-around;
-
 }
 
 .social-links a {
-  color: #cccccc;
+  color: #ffffff;
+  opacity: 80%;
   font-size: 1.2rem;
   text-decoration: none;
 }
